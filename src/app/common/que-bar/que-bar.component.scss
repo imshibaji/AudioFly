@@ -1,0 +1,21 @@
+.bar{
+    position: fixed;
+    width: 80px;
+    top: 60px;
+    bottom: 70px;
+    left: 0;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10px;
+    overflow-x: scroll;
+
+    .w3-card{
+        margin: 10px;
+    }
+
+    .w3-card:hover{
+        border: 1px solid black;
+    }
+    .active{
+        border: 2px solid yellowgreen;
+    }
+}

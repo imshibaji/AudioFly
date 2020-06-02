@@ -1,0 +1,49 @@
+.bar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    background-color: #efeff4;
+    padding: 0px 15px;
+
+    .details{
+        background-color: black;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        height: 50px;
+        border-bottom: 2px solid rgb(228, 4, 4);
+
+        .img{
+            float: left;
+
+            img{
+                height: 40px;
+            }
+            
+        }
+        .description{
+            float: left;
+            line-height: 40px;
+            margin-left: 20px;
+            max-width: 250px;
+        }
+        .time{
+            float: right;
+            line-height: 40px;
+        }
+
+        @media only screen and (max-width: 500px){
+            .description{
+                width: 100px;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .clear{
+        clear: both;
+    }
+}

@@ -1,0 +1,109 @@
+[
+    {
+      "name": "Top Songs",
+      "list":
+      [
+        {
+          "img": "./assets/imgs/img1.png",
+          "label": "Genda Phool",
+          "author": "Badshah",
+          "url": "./assets/audios/song1.mp3"
+        },
+        {
+          "img": "./assets/imgs/img2.png",
+          "label": "RANGABATI",
+          "author": "GOTRO",
+          "url": "./assets/audios/song2.mp3"
+        },
+        {
+          "img": "./assets/imgs/img3.png",
+          "label": "Tu Cheez Badi Hai Mast Mast",
+          "author": "Vidya Vox Cover",
+          "url": "./assets/audios/song3.mp3"
+        },
+        {
+          "img": "./assets/imgs/img4.png",
+          "label": "Perfect",
+          "author": "Justin Bieber",
+          "url": "./assets/audios/song4.mp3"
+        },
+        {
+          "img": "./assets/imgs/img5.png",
+          "label": "LET ME LOVE YOU",
+          "author": "Justin Bieber",
+          "url": "./assets/audios/song5.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Hit Songs",
+      "list":
+      [
+        {
+          "img": "./assets/imgs/img1.png",
+          "label": "Genda Phool",
+          "author": "Badshah",
+          "url": "./assets/audios/song1.mp3"
+        },
+        {
+          "img": "./assets/imgs/img2.png",
+          "label": "RANGABATI",
+          "author": "GOTRO",
+          "url": "./assets/audios/song2.mp3"
+        }
+      ]
+    },
+    {
+      "name":"Hindi Songs",
+      "list":[{
+        "img": "./assets/imgs/img1.png",
+        "label": "Genda Phool",
+        "author": "Badshah",
+        "url": "./assets/audios/song1.mp3"
+      },
+      {
+        "img": "./assets/imgs/img3.png",
+        "label": "Tu Cheez Badi Hai Mast Mast",
+        "author": "Vidya Vox Cover",
+        "url": "./assets/audios/song3.mp3"
+      }]
+    },
+    {
+      "name":"Others Songs",
+      "list":[
+        {
+          "img": "./assets/imgs/img2.png",
+          "label": "RANGABATI",
+          "author": "GOTRO",
+          "url": "./assets/audios/song2.mp3"
+        },
+        {
+          "img": "./assets/imgs/img3.png",
+          "label": "Tu Cheez Badi Hai Mast Mast",
+          "author": "Vidya Vox Cover",
+          "url": "./assets/audios/song3.mp3"
+        },
+        {
+          "img": "./assets/imgs/img4.png",
+          "label": "Perfect",
+          "author": "Justin Bieber",
+          "url": "./assets/audios/song4.mp3"
+        },
+        {
+          "img": "./assets/imgs/img5.png",
+          "label": "LET ME LOVE YOU",
+          "author": "Justin Bieber",
+          "url": "./assets/audios/song5.mp3"
+        }
+      ]
+    },
+    {
+      "name":"Unknown Songs",
+      "list":[{
+        "img": "",
+        "label": "",
+        "author": "",
+        "url": ""
+      }]
+    }
+]
