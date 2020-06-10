@@ -29,10 +29,13 @@ export class QueBarComponent implements OnInit {
   }
 
   playSong(data, index){
-    console.log(index); 
+    // console.log(index); 
     this._data.add(data, index);
   }
 
+  remove(song){
+    this.songsService.remove(song.id);
+  }
   clear(){
     this.songsService.removeAll();
   }

@@ -2,7 +2,7 @@
     position: fixed;
     width: 80px;
     top: 60px;
-    bottom: 70px;
+    bottom: 110px;
     left: 0;
     background-color: rgb(238, 238, 238);
     padding-top: 10px;
@@ -10,6 +10,16 @@
 
     .w3-card{
         margin: 10px;
+        position: relative;
+        .w3-btn{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 8px;
+            height: 10px;
+            font-size: 5pt;
+            padding: 0px;
+        }
     }
 
     .w3-card:hover{

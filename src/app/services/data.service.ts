@@ -7,6 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class DataService {
   private data = new BehaviorSubject<any>({
+      id: '',
       label: '',
       url: '',
       author: '',

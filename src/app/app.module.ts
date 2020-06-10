@@ -16,7 +16,7 @@ import { SongsComponent } from './pages/songs/songs.component';
 import { CatagoriesComponent } from './pages/catagories/catagories.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { from } from 'rxjs';
+import { SplashComponent } from './pages/splash/splash.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,8 @@ import { from } from 'rxjs';
     SongsComponent,
     CatagoriesComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    SplashComponent
   ],
   imports: [
     BrowserModule,

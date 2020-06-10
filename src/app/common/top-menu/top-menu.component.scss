@@ -11,4 +11,17 @@
         padding-left: 50%;
         content: ' ';
     }
+
+    .form{
+        .w3-input{
+            margin-left: 15px;
+            width: 60%;
+        }
+        @media only screen and (max-width: 500px){
+            .w3-input{
+                margin-left: 25px;
+                width: 50%;
+            }
+        }
+    }
 }

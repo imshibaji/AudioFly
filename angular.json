@@ -134,5 +134,10 @@
   "defaultProject": "AudioFly",
   "cli": {
     "defaultCollection": "@datorama/akita"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "displayBlock": true
+    }
   }
 }

@@ -36,74 +36,39 @@
       ]
     },
     {
-      "name": "Hit Songs",
+      "name": "Audio Books",
       "list":
       [
         {
-          "img": "./assets/imgs/img1.png",
-          "label": "Genda Phool",
-          "author": "Badshah",
-          "url": "./assets/audios/song1.mp3"
+          "img": "./assets/imgs/img6.png",
+          "label": "The Personal MBA Part - 1",
+          "author": "Hindi Audio Book",
+          "url": "./assets/audios/story1.mp4"
         },
         {
-          "img": "./assets/imgs/img2.png",
-          "label": "RANGABATI",
-          "author": "GOTRO",
-          "url": "./assets/audios/song2.mp3"
+          "img": "./assets/imgs/img6.png",
+          "label": "The Personal MBA Part - 2",
+          "author": "Hindi Audio Book",
+          "url": "./assets/audios/story2.mp4"
+        },
+        {
+          "img": "./assets/imgs/img7.png",
+          "label": "Secrets of the Millionaire Mind",
+          "author": "T. Harv Eker | Hindi Audio Book",
+          "url": "./assets/audios/stoty3_Secrets of the Millionaire.mp3"
+        },
+        {
+          "img": "./assets/imgs/img8.png",
+          "label": "The Mastery Manual",
+          "author": "Hindi Audio Book",
+          "url": "./assets/audios/story4.mp4"
+        },
+        {
+          "img": "./assets/imgs/img9.png",
+          "label": "The 1% formula",
+          "author": "Hindi Audio Book",
+          "url": "./assets/audios/story5.mp4"
         }
       ]
-    },
-    {
-      "name":"Hindi Songs",
-      "list":[{
-        "img": "./assets/imgs/img1.png",
-        "label": "Genda Phool",
-        "author": "Badshah",
-        "url": "./assets/audios/song1.mp3"
-      },
-      {
-        "img": "./assets/imgs/img3.png",
-        "label": "Tu Cheez Badi Hai Mast Mast",
-        "author": "Vidya Vox Cover",
-        "url": "./assets/audios/song3.mp3"
-      }]
-    },
-    {
-      "name":"Others Songs",
-      "list":[
-        {
-          "img": "./assets/imgs/img2.png",
-          "label": "RANGABATI",
-          "author": "GOTRO",
-          "url": "./assets/audios/song2.mp3"
-        },
-        {
-          "img": "./assets/imgs/img3.png",
-          "label": "Tu Cheez Badi Hai Mast Mast",
-          "author": "Vidya Vox Cover",
-          "url": "./assets/audios/song3.mp3"
-        },
-        {
-          "img": "./assets/imgs/img4.png",
-          "label": "Perfect",
-          "author": "Justin Bieber",
-          "url": "./assets/audios/song4.mp3"
-        },
-        {
-          "img": "./assets/imgs/img5.png",
-          "label": "LET ME LOVE YOU",
-          "author": "Justin Bieber",
-          "url": "./assets/audios/song5.mp3"
-        }
-      ]
-    },
-    {
-      "name":"Unknown Songs",
-      "list":[{
-        "img": "",
-        "label": "",
-        "author": "",
-        "url": ""
-      }]
     }
 ]

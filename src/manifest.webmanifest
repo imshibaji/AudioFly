@@ -1,0 +1,38 @@
+{
+    "short_name": "AudioFly",
+    "name": "AudioFly: Audio player application",
+    "description": "Audio Player Application",
+    "icons": [
+      {
+        "src": "assets/imgs/logo-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/imgs/logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#ec0b8e",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ec0b8e",
+    "shortcuts": [
+      {
+        "name": "Publish your creative audios",
+        "short_name": "Publisher",
+        "description": "Audio Publisher App",
+        "url": "/publisher?source=pwa",
+        "icons": [{ "src": "assets/imgs/logo-192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Listener App",
+        "short_name": "Listener",
+        "description": "Listeners app",
+        "url": "/listener?source=pwa",
+        "icons": [{ "src": "assets/imgs/logo-192.png", "sizes": "192x192" }]
+      }
+    ]
+  }

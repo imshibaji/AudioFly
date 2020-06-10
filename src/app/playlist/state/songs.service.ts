@@ -1,4 +1,3 @@
-import { SongsQuery } from './../../../../../AppState/src/app/playlist/state/songs.query';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ID } from '@datorama/akita';
@@ -29,7 +28,7 @@ export class SongsService {
     this.songsStore.update(id, song);
   }
 
-  remove(id: ID) {
+  remove(id: ID) {    
     this.songsStore.remove(id);
   }
 

@@ -2,6 +2,8 @@
     <div *ngFor="let song of files; let i = index" 
     class="w3-card" [ngClass]="{'active': i === currentIndex}" (click)="playSong(song, i)">
         <img [src]="song.img || './assets/imgs/audio.jpg'" alt="Alps" style="width:100%">
+
+        <button class="w3-btn w3-circle w3-red" (click)="remove(song)">X</button>
     </div>
     
 <!-- 
@@ -11,7 +13,7 @@
 -->
 
     <div class="text-center">
-        <button class="btn btn-danger" (click)="clear()">Clear</button>
+        <button class="w3-button w3-red" (click)="clear()">Clear</button>
     </div>
 </div>
 

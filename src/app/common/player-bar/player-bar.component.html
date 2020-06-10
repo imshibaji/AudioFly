@@ -1,4 +1,12 @@
 <div class="bar">
+    <input class="ml-2 mt-3 w-100" type="range"
+        min="0"
+        [max]="duration"
+        step="0.01"
+        #seek (input)="setSeek(seek.value)" 
+        [value]="currentTime"
+    >
+
     <div class="container ">
         <div class="row">
             <div class="col-md-3 col-3 py-3">

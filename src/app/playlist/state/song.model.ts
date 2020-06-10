@@ -6,6 +6,7 @@ export interface Song {
   author: string;
   url: string;
   img: string;
+  currentTime?: number;
 }
 
 export function createSong(params: Partial<Song>) {
@@ -14,6 +15,7 @@ export function createSong(params: Partial<Song>) {
     label: params.label,
     author: params.author,
     url: params.url,
-    img: params.img
+    img: params.img,
+    currentTime: params.currentTime
   } as Song;
 }
